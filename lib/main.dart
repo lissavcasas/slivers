@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'demo_page.dart';
+import 'package:gridview/grid_list.dart';
+//import 'sliver_list.dart';
  
 void main() => runApp(MyApp());
  
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DemoPage(),
+      home: GridList(),
     );
   }
 }

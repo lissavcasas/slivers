@@ -16,7 +16,7 @@ final rnd = math.Random();
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Material App Bar'),
+        title: Text('Sliver List'),
       ),
       body: Center(
         child: Container(
@@ -64,5 +64,3 @@ final rnd = math.Random();
 //To get random color 
   Color getRandomColor() => Color(rnd.nextInt(0xffffffff));
 }
-
-
