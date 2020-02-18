@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:gridview/sample.dart';
+import 'spanablelayout.dart';
 //import 'package:gridview/sliver_appbar.dart';
 //import 'package:gridview/sliver_grid.dart';
 //import 'sliver_list.dart';
+//import 'package:gridview/sample.dart';
 
 /* void main() => runApp(MyApp());
  
@@ -34,8 +35,10 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Georgia',
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text('Collapsing List Demo')),
-        body: CollapsingList(),
+        /* appBar: AppBar(title: Text('Collapsing List Demo')),
+        body: CollapsingList(), */
+        appBar: AppBar(title: Text('Spanable Sliver Grid Layout')),
+        body: MyHomePage(),
       ),
     );
   }
